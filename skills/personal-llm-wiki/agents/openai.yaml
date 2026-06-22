@@ -1,0 +1,7 @@
+interface:
+  display_name: "Personal LLM Wiki"
+  short_description: "记录、查询并同步个人知识库"
+  default_prompt: "Use $personal-llm-wiki to record, update, or query my personal knowledge base."
+
+policy:
+  allow_implicit_invocation: true

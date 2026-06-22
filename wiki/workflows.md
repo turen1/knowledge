@@ -37,3 +37,31 @@ C:\Users\Administrator\.codex\skills\personal-llm-wiki
 ```
 
 来源：`raw/sources/2026-06-22-personal-llm-wiki-skill.md`
+
+## 在其他 agent 中安装 personal-llm-wiki
+
+推荐方式：
+
+1. 在目标机器或目标 agent 可访问的位置 clone 仓库：
+
+```powershell
+git clone git@github.com:turen1/knowledge.git D:\knowledge
+```
+
+2. 将仓库内置 skill 复制或链接到该 agent 的 skills 目录：
+
+```powershell
+Copy-Item -Recurse D:\knowledge\skills\personal-llm-wiki $env:USERPROFILE\.codex\skills\
+```
+
+3. 之后使用 `$personal-llm-wiki`。
+
+如果 agent 支持显式加载 skill 路径，也可以直接使用：
+
+```text
+D:\knowledge\skills\personal-llm-wiki\SKILL.md
+```
+
+`kb.py` 会自动从 skill 所在目录向上查找 `.git`、`raw/`、`wiki/`，因此 clone 到哪里，哪里就是本地知识库根目录。
+
+来源：`raw/sources/2026-06-22-embed-skill-in-knowledge-repo.md`

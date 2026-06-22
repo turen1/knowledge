@@ -4,6 +4,7 @@
 
 - Codex
 - Codex skill：`personal-llm-wiki`，路径 `C:\Users\Administrator\.codex\skills\personal-llm-wiki`，用于记录、更新、查询并同步个人知识库。来源：`raw/sources/2026-06-22-personal-llm-wiki-skill.md`
+- 仓库内置 Codex skill：`skills/personal-llm-wiki`。其他 agent 可以 clone `git@github.com:turen1/knowledge.git` 到任意目录，repo-embedded skill 会自动把 clone 根目录识别为知识库根目录。来源：`raw/sources/2026-06-22-embed-skill-in-knowledge-repo.md`
 - PowerShell
 - Git
 - ffmpeg / ffprobe
