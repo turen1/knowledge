@@ -8,6 +8,7 @@
 - `raw/conversations/2026-06-22-driving-engineering-vs-prompt-engineering.md`：驾驭工程和提示词工程的问答记录。
 - `raw/sources/2026-06-22-embed-skill-in-knowledge-repo.md`：将 personal-llm-wiki skill 内置到知识库仓库并支持任意 clone 路径的记录。
 - `raw/conversations/2026-06-22-解说配音音色资产-i清亮机灵(mimo克隆).md`：解说配音 MiMo 克隆音色 I清亮机灵 的母带、参数、复用方法记录。
+- `raw/assets/voice/I清亮机灵_母带.wav`（+ `I清亮机灵_音色卡.md`）：音色母带实体文件，异地备份入库（MD5 `b568576d065e25801f9d1c44a5ad09ff`）。
 
 ## Wiki 页面来源
 
