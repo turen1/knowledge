@@ -11,8 +11,11 @@
 - 取片切条
 - 剪映草稿生成
 - 一键合成成片
+- 解说配音（MiMo 克隆音色 I清亮机灵，分段 TTS）
 
-来源：`raw/conversations/2026-06-22-initial-context.md`
+配音音色资产「I清亮机灵」可跨剧复用，详见 `wiki/tools.md`。
+
+来源：`raw/conversations/2026-06-22-initial-context.md`、`raw/conversations/2026-06-22-解说配音音色资产-i清亮机灵(mimo克隆).md`
 
 ## 个人知识库
 

@@ -16,6 +16,20 @@
 
 - 视频工作区：`G:\video`
 - 黑夜告白项目：`G:\video\heiyegaobai_explain`
+- 音色库：`G:\video\音色库`
 - 知识库：`G:\knowledge`
 
 来源：`raw/conversations/2026-06-22-initial-context.md`
+
+## 解说配音音色资产：I 清亮机灵（MiMo 克隆，可跨剧复用）
+
+电视剧解说账号的固定通用男声，首次用于《黑夜告白》讲透版。**下一部解说剧直接复用同一母带克隆即可，音色完全一致。**
+
+- **母带（音色本体）**：`G:\video\音色库\I清亮机灵_母带.wav`（+ `_备份.wav`）；音色卡：`G:\video\音色库\I清亮机灵_音色卡.md`。
+- ⚠️ **MiMo 是即时克隆，云端无 voice_id —— 音色 = 母带文件本身**。母带丢了无法完全复现（VoiceDesign 有随机性，重生成只得近似），务必本地+云盘多处备份，别删别覆盖。
+- 特征：年轻男声(约25岁)，清亮透亮、明快干净、机灵小幽默、去播音腔。成片语速 **1.1x**（ffmpeg `atempo=1.1`，不变调）。
+- 来源：MiMo VoiceDesign（`mimo-v2.5-tts-voicedesign`）生成，原始描述 prompt 见音色卡/raw。
+- 复用/补录：克隆模型 `mimo-v2.5-tts-voiceclone`，读母带 base64 作 voice 参考、文本放 assistant 逐段合成 → `atempo=1.1` 变速 → 拼接。直接改脚本 `heiyegaobai_explain\scripts\mimo_tts_batch_v2.py` 的 REF 路径+换分段稿。补录新句须用同一母带+1.1x+同后处理+响度归一，并听插入接缝。
+- API：`https://api.xiaomimimo.com/v1`，密钥环境变量 `MIMO_API_KEY`。完整方法论：`G:\video\解说配音_MiMo音色克隆SOP.md`。
+
+来源：`raw/conversations/2026-06-22-解说配音音色资产-i清亮机灵(mimo克隆).md`
