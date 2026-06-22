@@ -26,3 +26,14 @@
 
 来源：`raw/sources/2026-06-22-karpathy-llm-wiki.md`
 
+## 通过 skill 操作个人知识库
+
+用户希望把个人知识库维护流程封装成通用 skill。当前可用的 skill 是 `$personal-llm-wiki`，支持记录、查询、编译 wiki、审计、提交和推送。
+
+本地路径：
+
+```text
+C:\Users\Administrator\.codex\skills\personal-llm-wiki
+```
+
+来源：`raw/sources/2026-06-22-personal-llm-wiki-skill.md`
