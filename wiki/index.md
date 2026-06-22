@@ -8,6 +8,7 @@
 - [[preferences]]：偏好与工作方式
 - [[projects]]：项目地图
 - [[workflows]]：常用工作流
+- [[concepts]]：概念库
 - [[tools]]：工具与环境
 - [[timeline]]：时间线
 - [[open-questions]]：待确认问题
@@ -24,4 +25,3 @@
 
 - `raw/sources/2026-06-22-karpathy-llm-wiki.md`
 - `raw/conversations/2026-06-22-initial-context.md`
-
