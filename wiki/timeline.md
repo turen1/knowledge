@@ -14,3 +14,9 @@
 来源：`raw/sources/2026-06-22-personal-llm-wiki-skill.md`
 来源：`raw/conversations/2026-06-22-driving-engineering-vs-prompt-engineering.md`
 来源：`raw/sources/2026-06-22-embed-skill-in-knowledge-repo.md`
+
+## 2026-06-24
+
+- 记录当前热门 AI/LLM 工程方向，并将上下文工程、智能体工程、循环工程、Harness Engineering、评测工程、RAG/知识库工程、记忆工程、工具/MCP 工程、可靠性与安全工程、多 agent 协同工程关联到“驾驭工程”概念。
+
+来源：`raw/conversations/2026-06-24-current-hot-ai-engineering-fields.md`
