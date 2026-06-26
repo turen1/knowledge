@@ -26,7 +26,9 @@
 - 记录 `merge.md`，沉淀 Claude、Codex、Gemini 在游戏开发中的分工协作策略。
 - 记录《几口酱聊AI：先提问再执行提示词方法论》分析报告，沉淀“先提问，再执行”、Best Minds、GStack / Office Hours 等提示词方法论。
 - 因 `G:\knowledge` 不是完整 Git 仓库，重新从 `git@github.com:turen1/knowledge.git` 克隆完整知识库到 `G:\knowledge_repo` 进行本次维护。
+- 恢复默认知识库路径：从远程 `git@github.com:turen1/knowledge.git` 重新 clone 到 `G:\knowledge`，并确认审计通过。
 
 来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`
+来源：`raw/conversations/2026-06-26-restore-default-knowledge-path.md`
 来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
 来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`

@@ -11,7 +11,7 @@
 - 是否主要用 Obsidian 查看？
 - 是否需要自动从微信、浏览器收藏、项目目录、聊天记录导入？
 - 是否需要定期生成周报、月报、人生项目盘点？
-- `G:\knowledge` 当前不是完整 Git 仓库，本次使用 `G:\knowledge_repo` 作为完整 clone 完成维护。后续需要确认是恢复 `G:\knowledge` 为默认完整仓库，还是长期改用 `G:\knowledge_repo`。来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`
+- 是否删除或保留 `G:\knowledge_repo` 这个临时 clone？来源：`raw/conversations/2026-06-26-restore-default-knowledge-path.md`
 
 ## GitHub 仓库策略
 

@@ -18,8 +18,8 @@
 - 视频工作区：`G:\video`
 - 黑夜告白项目：`G:\video\heiyegaobai_explain`
 - 音色库：`G:\video\音色库`
-- 知识库：`G:\knowledge`
-- 当前恢复出的完整知识库 clone：`G:\knowledge_repo`。`G:\knowledge` 当前只保留了部分 wiki 文件，不是完整 Git 仓库。来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`
+- 默认知识库：`G:\knowledge`，已恢复为完整 Git 仓库。来源：`raw/conversations/2026-06-26-restore-default-knowledge-path.md`
+- 临时知识库 clone：`G:\knowledge_repo`，可作为历史恢复用 clone。来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`、`raw/conversations/2026-06-26-restore-default-knowledge-path.md`
 
 来源：`raw/conversations/2026-06-22-initial-context.md`
 
