@@ -9,6 +9,7 @@
 - Git
 - ffmpeg / ffprobe
 - 剪映专业版
+- CocosProject 工作区：`G:\CocosProject`
 
 来源：`raw/conversations/2026-06-22-initial-context.md`
 
@@ -18,8 +19,23 @@
 - 黑夜告白项目：`G:\video\heiyegaobai_explain`
 - 音色库：`G:\video\音色库`
 - 知识库：`G:\knowledge`
+- 当前恢复出的完整知识库 clone：`G:\knowledge_repo`。`G:\knowledge` 当前只保留了部分 wiki 文件，不是完整 Git 仓库。来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`
 
 来源：`raw/conversations/2026-06-22-initial-context.md`
+
+## AI 编码与多模态工具分工
+
+- Codex：适合作为主开发与交付工具，负责实现、重构、测试、构建、文件操作、浏览器/GUI 验证和 Git 流程。
+- Claude：适合复杂系统设计、架构审查、代码审查、疑难 Bug 根因分析、GDD/技术设计文档和世界观一致性。
+- Gemini：适合截图、录屏、音频、PDF、日志和 Google 技术栈相关任务的多模态分析与批量处理。
+
+来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
+
+## 可沉淀的 Cocos 辅助 skill
+
+`cocos-mentor` 可作为未来项目内 skill：在实现复杂 Cocos Creator 功能前，先强制执行“先提问，再执行”流程，澄清组件解耦、状态管理、持久化、对象池、DrawCall、内存泄漏和验收标准。
+
+来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`
 
 ## 解说配音音色资产：I 清亮机灵（MiMo 克隆，可跨剧复用）
 

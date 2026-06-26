@@ -20,3 +20,13 @@
 - 记录当前热门 AI/LLM 工程方向，并将上下文工程、智能体工程、循环工程、Harness Engineering、评测工程、RAG/知识库工程、记忆工程、工具/MCP 工程、可靠性与安全工程、多 agent 协同工程关联到“驾驭工程”概念。
 
 来源：`raw/conversations/2026-06-24-current-hot-ai-engineering-fields.md`
+
+## 2026-06-26
+
+- 记录 `merge.md`，沉淀 Claude、Codex、Gemini 在游戏开发中的分工协作策略。
+- 记录《几口酱聊AI：先提问再执行提示词方法论》分析报告，沉淀“先提问，再执行”、Best Minds、GStack / Office Hours 等提示词方法论。
+- 因 `G:\knowledge` 不是完整 Git 仓库，重新从 `git@github.com:turen1/knowledge.git` 克隆完整知识库到 `G:\knowledge_repo` 进行本次维护。
+
+来源：`raw/conversations/2026-06-26-record-cocosproject-docs.md`
+来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
+来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`

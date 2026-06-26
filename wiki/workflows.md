@@ -65,3 +65,27 @@ D:\knowledge\skills\personal-llm-wiki\SKILL.md
 `kb.py` 会自动从 skill 所在目录向上查找 `.git`、`raw/`、`wiki/`，因此 clone 到哪里，哪里就是本地知识库根目录。
 
 来源：`raw/sources/2026-06-22-embed-skill-in-knowledge-repo.md`
+
+## 复杂任务先提问再执行
+
+复杂任务不要直接进入生成或编码，先让 AI 扮演导师逐步提问，澄清目标、边界、约束、验收标准和潜在盲点。回答模糊时继续追问，确认完整理解后再执行。
+
+适用场景：
+
+- 产品设计、商业分析、UI/UX 和系统架构。
+- Cocos Creator 复杂功能，例如背包系统、技能 Buff 状态机、存档系统、物理碰撞、对象池和渲染性能优化。
+- 多 agent 协作前的需求澄清：先由导师 agent 明确问题，再分派执行 agent。
+
+来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`
+
+## 游戏开发多模型协作
+
+游戏开发中，多模型协作应按角色分工，而不是让多个模型同时写同一批代码：
+
+- Claude：负责设计规范、系统边界、数据契约、复杂架构审查和疑难问题分析。
+- Codex：负责实现、跨文件重构、测试、构建、浏览器/GUI 验证、Git 工作流和交付。
+- Gemini：负责多模态分析、高吞吐批处理、截图/录屏/音频/PDF 分析，以及 Google 技术栈相关任务。
+
+关键原则：同一功能、同一分支、同一组文件应保持单一写入者，其他模型只做设计、审查或分析。
+
+来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`

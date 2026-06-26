@@ -54,3 +54,15 @@
 用户近期使用交接文档定义任务，用约束控制范围，用脚本和工具落地，用校验报告验收结果。这种使用方式已经超出单纯提示词工程，更接近驾驭工程。
 
 来源：`raw/conversations/2026-06-22-driving-engineering-vs-prompt-engineering.md`
+
+## 先提问再执行
+
+“先提问再执行”是提示词工程和驾驭工程之间的一种实用桥梁。它把一次性 prompt 改造成交互式需求澄清流程，让 AI 在执行前先帮助用户发现盲点、明确边界和形成验收标准。
+
+来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`
+
+## 单一写入者原则
+
+单一写入者原则用于多模型或多 agent 协作：同一功能、同一分支、同一组文件只安排一个执行者写入，其他 agent 负责设计、审查或验证，避免并行修改造成冲突和责任不清。
+
+来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`

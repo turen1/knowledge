@@ -9,6 +9,7 @@
 - [[projects]]：项目地图
 - [[workflows]]：常用工作流
 - [[concepts]]：概念库
+- [[prompting]]：提示词方法论
 - [[tools]]：工具与环境
 - [[timeline]]：时间线
 - [[open-questions]]：待确认问题

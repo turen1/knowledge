@@ -25,3 +25,16 @@
 
 来源：`raw/conversations/2026-06-22-initial-context.md`
 
+## Cocos 游戏项目
+
+当前工作区：`G:\CocosProject`
+
+可复用 AI 工作流：
+
+- 开发复杂 Cocos Creator 功能前，使用“先提问，再执行”流程澄清架构边界。
+- 重点提问组件解耦方式、数据结构、持久化、安全校验、同屏节点数量、对象池需求、DrawCall 和内存泄漏风险。
+- 可沉淀项目专属 `cocos-mentor` skill，让 AI 在写 TypeScript 组件代码前强制完成架构澄清。
+- 游戏开发多模型分工可采用：Claude 做架构和审查，Codex 做实现与验证，Gemini 做多模态分析和高吞吐辅助。
+
+来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`、`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
+
