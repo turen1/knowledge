@@ -14,6 +14,9 @@
 - `raw/conversations/2026-06-26-restore-default-knowledge-path.md`：恢复默认知识库路径 `G:\knowledge` 的维护记录。
 - `raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`：`merge.md` 原文，记录 Claude、Codex、Gemini 在游戏开发中的分工协作和工具选型。
 - `raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`：几口酱提示词视频分析报告原文，记录“先提问，再执行”、Best Minds、GStack / Office Hours 方法论。
+- `raw/sources/2026-07-04-storyboard-construction-ideas.md`：`G:\douyin\docs\分镜表构建思路.md` 原文，记录优秀分镜表的标准化框架、视觉语言、动态指示、注释系统和预剪辑心法。
+- `raw/sources/2026-07-04-storyboard-construction-process.md`：`G:\douyin\docs\分镜表构建思路2.md` 原文，记录从剧本到可执行分镜表的构建流程。
+- `raw/sources/2026-07-04-storyboard-table-rules.md`：`G:\douyin\docs\分镜表规则.md` 原文，记录分镜表字段、判断标准、层级结构、模板和不同类型项目重点。
 
 ## Wiki 页面来源
 
@@ -34,3 +37,5 @@
 - `wiki/tools.md`：补充来自 `merge.md` 的 AI 工具分工，以及来自几口酱提示词视频分析报告的 Cocos 辅助 skill 设想。
 - `wiki/tools.md`：补充来自本次维护记录的 `G:\CocosProject` 和 `G:\knowledge_repo` 路径信息。
 - `wiki/tools.md`、`wiki/open-questions.md`、`wiki/timeline.md`：补充来自恢复默认知识库路径记录的 `G:\knowledge` 路径状态。
+- `wiki/workflows.md`：补充来自三份分镜表资料的专业分镜表构建流程。
+- `wiki/projects.md`、`wiki/timeline.md`：补充来自三份分镜表资料的 `G:\douyin` 项目资料入库记录。

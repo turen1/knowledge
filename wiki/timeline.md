@@ -32,3 +32,11 @@
 来源：`raw/conversations/2026-06-26-restore-default-knowledge-path.md`
 来源：`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
 来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`
+
+## 2026-07-04
+
+- 将 `G:\douyin\docs` 下三份分镜表资料纳入知识库，并编译为“专业分镜表构建”工作流。
+
+来源：`raw/sources/2026-07-04-storyboard-construction-ideas.md`
+来源：`raw/sources/2026-07-04-storyboard-construction-process.md`
+来源：`raw/sources/2026-07-04-storyboard-table-rules.md`

@@ -38,3 +38,17 @@
 
 来源：`raw/sources/2026-06-26-jikoujiang-ask-before-execute-prompt-video-analysis.md`、`raw/sources/2026-06-26-ai-coding-models-game-development-comparison.md`
 
+## 抖音视频项目
+
+当前工作区：`G:\douyin`
+
+已入库资料：
+
+- 分镜表构建思路：专业分镜表的标准化信息框架、视觉语言、时间与运动、注释系统和预剪辑心法。
+- 分镜表构建思路 2：从剧本分析、视觉总谱、镜头拆解、动态指示到施工注释的构建流程。
+- 分镜表规则：分镜表字段、判断标准、层级结构、模板示例和不同项目类型的分镜重点。
+
+可复用成果已编译到 `wiki/workflows.md` 的“专业分镜表构建”。
+
+来源：`raw/sources/2026-07-04-storyboard-construction-ideas.md`、`raw/sources/2026-07-04-storyboard-construction-process.md`、`raw/sources/2026-07-04-storyboard-table-rules.md`
+
