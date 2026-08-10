@@ -29,6 +29,12 @@
 - 域名：`https://admin.meiguisong888.com`（后台）、`https://api.meiguisong888.com`（接口）
 - 另一台别名 `erp`（`8.134.11.16`）的服务器与本项目无关
 
+服务器数据库连接方式：
+
+- MySQL 与站点同机，`127.0.0.1:3306`，库名 `meiguisong-mini`，用户 `root`，字符集 utf8mb4，表前缀 `ea_`
+- 密码存于服务器 `/www/meiguisong-mini/.env`，不入库
+- 服务器直连：`mysql -uroot -p meiguisong-mini`；本地远程访问走 SSH 隧道（`ssh -L 3306:127.0.0.1:3306 jpgy`）
+
 来源：`raw/conversations/2026-08-10-meiguisong-production-server.md`
 
 ## 个人知识库

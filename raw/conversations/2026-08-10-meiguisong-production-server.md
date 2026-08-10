@@ -15,3 +15,12 @@
 历史部署动作（同一会话记录）：服务器上 clone codeup 仓库到 `/www/meiguisong-mini`，scp 上传 vendor、public/upload、public/avatar、cert 目录与数据库 dump。
 
 无关项：另一台 SSH 别名 `erp`（`8.134.11.16:22`，root 密钥认证）属于其他项目，与玫瑰颂无关。
+
+## 补充：服务器数据库连接方式
+
+同日登录服务器读取 `/www/meiguisong-mini/.env` 的 `[DATABASE]` 段确认（密码不入库）：
+
+- MySQL 与站点同机部署，连接地址 `127.0.0.1:3306`
+- 库名：`meiguisong-mini`，用户：`root`，字符集 utf8mb4，表前缀 `ea_`
+- 密码存于服务器 `/www/meiguisong-mini/.env` 的 `PASSWORD` 项，按敏感信息规则不记录
+- 服务器上直连：`mysql -uroot -p meiguisong-mini`；本地远程访问需经 SSH 隧道（如 `ssh -L 3306:127.0.0.1:3306 jpgy`）
