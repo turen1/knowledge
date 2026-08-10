@@ -17,6 +17,20 @@
 
 来源：`raw/conversations/2026-06-22-initial-context.md`、`raw/conversations/2026-06-22-解说配音音色资产-i清亮机灵(mimo克隆).md`
 
+## 玫瑰颂积分商城
+
+本地路径：`D:\phpstudy_pro\WWW\meiguisong-mini`（admin-system 后端与 mini-program 小程序两个独立仓库）
+
+线上服务器连接方式：
+
+- SSH：`ssh jpgy`（即 `root@8.134.74.163:22`，密钥认证，别名配置于 `C:\Users\Syj15\.ssh\config`）
+- 站点目录：`/www/meiguisong-mini/`，服务器系统 CentOS 7
+- 服务器代码分支：master（2026-08-10 确认，此前为 v2）
+- 域名：`https://admin.meiguisong888.com`（后台）、`https://api.meiguisong888.com`（接口）
+- 另一台别名 `erp`（`8.134.11.16`）的服务器与本项目无关
+
+来源：`raw/conversations/2026-08-10-meiguisong-production-server.md`
+
 ## 个人知识库
 
 仓库：`git@github.com:turen1/knowledge.git`

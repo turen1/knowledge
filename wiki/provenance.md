@@ -17,6 +17,7 @@
 - `raw/sources/2026-07-04-storyboard-construction-ideas.md`：`G:\douyin\docs\分镜表构建思路.md` 原文，记录优秀分镜表的标准化框架、视觉语言、动态指示、注释系统和预剪辑心法。
 - `raw/sources/2026-07-04-storyboard-construction-process.md`：`G:\douyin\docs\分镜表构建思路2.md` 原文，记录从剧本到可执行分镜表的构建流程。
 - `raw/sources/2026-07-04-storyboard-table-rules.md`：`G:\douyin\docs\分镜表规则.md` 原文，记录分镜表字段、判断标准、层级结构、模板和不同类型项目重点。
+- `raw/conversations/2026-08-10-meiguisong-production-server.md`：玫瑰颂积分商城线上服务器连接方式（SSH 别名 jpgy、站点目录、master 分支）筛选与确认记录。
 
 ## Wiki 页面来源
 
@@ -38,4 +39,5 @@
 - `wiki/tools.md`：补充来自本次维护记录的 `G:\CocosProject` 和 `G:\knowledge_repo` 路径信息。
 - `wiki/tools.md`、`wiki/open-questions.md`、`wiki/timeline.md`：补充来自恢复默认知识库路径记录的 `G:\knowledge` 路径状态。
 - `wiki/workflows.md`：补充来自三份分镜表资料的专业分镜表构建流程。
+- `wiki/projects.md`：补充来自玫瑰颂线上服务器连接记录的线上服务器连接方式。
 - `wiki/projects.md`、`wiki/timeline.md`：补充来自三份分镜表资料的 `G:\douyin` 项目资料入库记录。
