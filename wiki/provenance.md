@@ -2,6 +2,8 @@
 
 ## 原始来源
 
+- `raw/conversations/2026-10-28-demucs-bgm-separation.md`：Demucs 与 Python 的关系、背景音乐分离实践、替代工具及临时环境清理状态，包含已查阅的官方资料链接。
+
 - `raw/sources/2026-06-22-karpathy-llm-wiki.md`：Karpathy LLM Wiki 方案摘要。
 - `raw/conversations/2026-06-22-initial-context.md`：用户与 Codex 当前会话的初始上下文摘要。
 - `raw/sources/2026-06-22-personal-llm-wiki-skill.md`：创建个人知识库维护 skill 的记录。
@@ -20,6 +22,9 @@
 - `raw/conversations/2026-08-10-meiguisong-production-server.md`：玫瑰颂积分商城线上服务器连接方式（SSH 别名 jpgy、站点目录、master 分支）筛选与确认记录。
 
 ## Wiki 页面来源
+
+- `wiki/demucs.md`：来自 Demucs 背景音乐分离对话与执行记录，以及记录中列出的官方项目资料。
+- `wiki/index.md`、`wiki/tools.md`：补充来自 Demucs 背景音乐分离记录的专题入口和临时使用状态。
 
 - `wiki/index.md`：来自 Karpathy LLM Wiki 方案和初始上下文。
 - `wiki/profile.md`：来自初始上下文。

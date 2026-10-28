@@ -11,6 +11,7 @@
 - [[concepts]]：概念库
 - [[prompting]]：提示词方法论
 - [[tools]]：工具与环境
+- [[demucs]]：Demucs、Python 与视频背景音乐分离
 - [[timeline]]：时间线
 - [[open-questions]]：待确认问题
 - [[provenance]]：来源索引
